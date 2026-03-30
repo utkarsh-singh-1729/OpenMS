@@ -35,6 +35,12 @@
   Dependencies can be installed using the following commands:
   
   \snippet "../../tools/ci/deps-ubuntu.sh" installation_documentation
+    OpenMP is required for multi-threaded execution in %OpenMS. On Ubuntu/Debian,
+    it is provided by the `libomp-dev` package:
+
+    \code
+    sudo apt-get install libomp-dev
+    \endcode
 
   @subsection install_linux_deps_redhat Fedora/RHEL/CentOS
 
